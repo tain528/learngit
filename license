@@ -7,3 +7,5 @@ git reset --hard HEAD^
 git reset --hard commit_id
 git log
 git reflog
+git reset HEAD file
+git checkout -- file
