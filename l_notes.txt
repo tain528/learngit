@@ -14,7 +14,7 @@ git reset HEAD file
 git checkout -- file
 git push origin master
 
-git remotr -v
+git remote -v
 git remote rm origin
 git remote add origin git@github.com:tain528/learngit.git
 ../.ssh/rsa.pub
