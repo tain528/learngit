@@ -34,3 +34,4 @@ ssh-add
 git log --graph --pretty=oneline --abbrev-commit
 分支合并图,一行。
 
+git merge --no--ff -m "merge with no-ff" dev
