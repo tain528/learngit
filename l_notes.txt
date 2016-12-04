@@ -61,3 +61,15 @@ git show <tagname>
 git tag -a v0.1 -m "version 0.1 released" 3628164
 git tag -s v0.2 -m "signed version 0.2 released" fec145a
 
+git push origin v0.9
+git push origin --tags
+git tag -d v0.9
+git push origin :refs/tags/v0.9
+
+.gitignore git add -f App.class
+git check-ignore -v App.class
+
+git config --global color.ui true
+git config --global alias.unstage 'reset HEAD'
+git config --global alias.last 'log -1'
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
